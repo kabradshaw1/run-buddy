@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+/* removes the underlines from the list */
+header a {
+    color: #fce138;
+    text-decoration: none;
+}
+/* anchors this to the right of the screen and gives 
+it an inline property allowing the what we do to move up 
+This also made the the blue background not extend down 
+below the list */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/* li elements default to inline, so this allows them to 
+be displayed left to right  */
+header nav ul li {
+    display: inline;
+}
+/* spaced the list in the header out */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
